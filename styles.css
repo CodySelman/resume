@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  padding: 1em 0 1em 0;
+}
+
+p {
+  margin: 0;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1em 0 1em;
+}
+
+.headline img {
+  border-radius: 50%;
+  width: 25%;
+}
+
+.social > div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social img {
+  height: 24px;
+  width: 24px;
+}
