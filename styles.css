@@ -1,29 +1,50 @@
-body {
-  font-family: 'Roboto', Arial, sans-serif;
-  padding: 1em 0 1em 0;
+html {
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
-p {
+body {
+  font-family: 'Press Start 2P', Arial, sans-serif;
   margin: 0;
 }
 
-.headline {
+.page-container {
+  align-items: center;
   display: flex;
-  justify-content: space-around;
-  padding: 0 1em 0 1em;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
-.headline img {
-  border-radius: 50%;
-  width: 25%;
-}
-
-.social > div {
+.header-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
-.social img {
-  height: 24px;
-  width: 24px;
+.header-container h1 {
+  font-size: 48px;
+  line-height: 2;
+  text-align: center;
+}
+
+.social-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-container img {
+  width: 64px;
+}
+
+.social-row {
+  display: flex;
+}
+
+.social {
+  margin: 1em;
 }
